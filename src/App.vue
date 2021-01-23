@@ -1,16 +1,16 @@
 <template lang="pug">
-img(alt='Vue logo' src='./assets/logo.png')
-hello-world(msg='Welcome to Your Vue.js App')
+#app
+  index
 </template>
 
 <script>
 import { defineComponent } from '@vue/composition-api';
-import HelloWorld from './components/HelloWorld.vue'
+import Index from './pages/Index.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Index
   }
 });
 </script>
