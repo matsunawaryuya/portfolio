@@ -1,6 +1,6 @@
 <template lang="pug">
-.index-page
-  | Header
+.header-page
+  | aaaa
 </template>
 
 <script>
@@ -10,3 +10,11 @@ export default defineComponent({
   name: 'Header'
 });
 </script>
+
+<style lang="scss" scoped>
+.header-page {
+  width: 100%;
+  height: 20vw;
+  background-color: gray;
+}
+</style>
